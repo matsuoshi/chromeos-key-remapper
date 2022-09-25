@@ -32,7 +32,7 @@ Remapper.Engine = function (keymap) {
     if (keyData.altKey) {
       sequence += 'M-';
     }
-    sequence += keyData.key;
+    sequence += keyData.code;
     return sequence;
   }
 
